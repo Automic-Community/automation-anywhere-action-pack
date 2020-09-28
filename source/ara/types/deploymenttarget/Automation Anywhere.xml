@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Version: 1.0.0 -->
+<DeploymentTargetType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Deployment_Target.xsd">
+	<Name>Automation Anywhere</Name>
+
+	<Properties>		
+		
+            <Group name="connectivity_group" displayName="Connect to Control Room">
+                <Property name="rest_api_url" type="SingleLineText" mode="EDITABLE" displayName="Control Room URL">
+					<Description>Entry URL of the Automation Anywhere Control Room REST API.</Description>
+                </Property>
+                <Property name="username" type="SingleLineText" mode="EDITABLE" displayName="Username">
+					<Description>Username for the REST API authentication.</Description>
+                </Property>
+				<Property name="password" type="Protected" mode="EDITABLE" displayName="Password">
+					<Description>Password for the REST API authentication.</Description>
+                </Property> 
+            </Group>
+
+			<Group name="deployment_target_group" displayName="Deployment Target">
+				<Property name="device_host_name" type="SingleLineText" mode="EDITABLE" displayName="Device Host Name">
+					<Description>Host name of the device on which you want to start the task.</Description>
+                </Property>
+            </Group>
+
+	</Properties>
+
+</DeploymentTargetType>

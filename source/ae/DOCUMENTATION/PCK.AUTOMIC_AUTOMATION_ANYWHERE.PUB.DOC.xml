@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<DOCU name="PCK.AUTOMIC_AUTOMATION_ANYWHERE.PUB.DOC">
+<HEADER state="1">
+<Title>Package Documentation</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<DOCU_Docu state="1" type="text">
+<DOC><![CDATA[About the Package
+
+================================
+
+Automation Anywhere is a leading solution in the Robotic Process Automation market. Automation Anywhere helps you gain time and reliability by automating fastidious manual tasks.
+
+By integrating Automation Anywhere with CA Automic Service Orchestration, CA Automic Workload Automation or CA Continuous Delivery Automation, you benefit from fully automated workflows that contains tasks operated by the different products.
+
+Integration examples:
+
+Service Orchestration
+
+In the middle of a provisioning workflow operated by CA Automic Service Orchestration, use Automation Anywhere to log in the user interface of your tool for obtaining an IP address, and pass it to successor tasks in CA Automic Service Orchestration for setting the IP address in a technical component that is being provisioned
+Workload Automation
+
+Perform web scraping with Automation Anywhere and process the harvested data by running a series of IT operations with CA Automic Workload Automation
+Continuous Delivery
+
+Towards the end of a CI/CD pipeline orchestrated by CA Continuous Delivery Automation, run a functional test with Automation Anywhere and use the result as a gatekeeper in your application deployment workflow
+
+
+=Supported versions=
+
+v11.3
+
+
+
+=Setup=
+
+* The Agent should be able to access Automation Anywhere Control Room rest API endpoint URL in order to make HTTP requests.
+
+* Internet Connection should be available on Agent OS.
+
+
+
+=Common Inputs=
+
+- REST API URL*: Provide URL of the Automation Anywhere REST API. E.g. http://aamachine0209:80
+
+- Username*: Provide username for the REST API authentication. E.g. aauser
+
+- Password*: Provide the password for the REST API authentication.
+
+
+
+=Actions=
+
+Following actions are supported
+
+
+* Action name: PCK.AUTOMIC_AUTOMATION_ANYWHERE.PUB.ACTION.START_TASK
+
+* Action Description: This action starts a task in the automation anywhere control room.]]></DOC>
+</DOCU_Docu>
+</DOCU>
+</uc-export>

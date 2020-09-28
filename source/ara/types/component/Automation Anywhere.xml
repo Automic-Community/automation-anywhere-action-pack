@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Version: 1.0.0 -->
+<ComponentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="component.xsd">
+  <Name>Automation Anywhere</Name>
+  <DefaultDeploymentTargetType>Automation Anywhere</DefaultDeploymentTargetType>
+  <Properties>
+		<Group name="bot_group" displayName="Bot">
+			<Property name="bot_name" type="SingleLineText" mode="EDITABLE" displayName="Name"> <!-- e.g.: sampleBot.atmx  -->
+				<Description>Name of the Bot you want to start. E.g. SampleBot.atmx</Description>
+			</Property>			
+		</Group>
+  </Properties>
+
+  <DynamicProperties>
+		
+		<!-- GENERAL -->		
+		<Property name="/aa/rest_api_url" highlighted="false">
+		    <Value>{@target/custom/rest_api_url}</Value>
+		    <Description>URL of the Automation Anywhere REST API.</Description>
+		</Property>
+		<Property name="/aa/username" highlighted="false">
+			<Value>{@target/custom/username}</Value>
+			<Description>Username for the REST API authentication.</Description>
+		</Property>
+		<Property name="/aa/password" highlighted="false">
+			<Value>{@target/custom/password}</Value>
+			<Description>Password for the REST API authentication.</Description>
+		</Property> 
+		<Property name="/aa/bot_name" highlighted="false">
+            <Value>{/custom/bot_name}</Value>
+            <Description>Name of the Task (Bot) you want to start.</Description>
+        </Property>
+		<Property name="/aa/device_host_name" highlighted="false">
+			<Value>{@target/custom/device_host_name}</Value>
+			<Description>Host name of the device on which you want to start the task.</Description>
+		</Property>
+		
+  </DynamicProperties>
+
+</ComponentType>

@@ -1,0 +1,18 @@
+# Package Build Configuration
+name: PCK.AUTOMIC_AUTOMATION_ANYWHERE
+
+source: ae
+binaries: 
+- object: RESOURCES/PCK.AUTOMIC_AUTOMATION_ANYWHERE.PRV.CUSTOM_TYPES
+  timestamp: disabled
+  resources: 
+  - name: COMPONENT#AUTOMATION_ANYWHERE#2
+    type: TEXT
+    path: ara/types/component/Automation Anywhere.xml
+    version: 1.0.0
+  - name: DEPLOYMENTTARGET#AUTOMATION_ANYWHERE#1
+    type: TEXT
+    path: ara/types/deploymenttarget/Automation Anywhere.xml
+    version: 1.0.0
+  
+
