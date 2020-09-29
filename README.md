@@ -2,7 +2,7 @@
 
 
 ###### Description
- This Docker action pack used to support the Docker feature on Automic Automation. [Check the Feature support by action pack](source/README.md)
+By integrating Automation Anywhere with CA Automic Service Orchestration, CA Automic Workload Automation or CA Continuous Delivery Automation, you benefit from fully automated workflows that contains tasks operated by the different products. [Check the Feature support by action pack](source/README.md)
 
 ###### Prerequisite:
 	1. AE (Automation Engine) is installed. 
