@@ -7,11 +7,11 @@ By integrating Automation Anywhere with CA Automic Service Orchestration, CA Aut
 
  ###### Actions
  
- 1. Start Job
+ 1. Start Task
  
  ###### Compatibility:
  
- 1. Automation Anywhere Automation Anywhere Enterprise 11.3 
+ 1. Automation Anywhere Enterprise 11.3
 
 ###### Prerequisite:
 

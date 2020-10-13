@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_AUTOMATION_ANYWHERE.PUB.ACTION.START_TASK">
 <XHEADER state="1">
-<Title>Start  Task</Title>
+<Title>Start Task</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -143,7 +143,7 @@
 <node content="1" id="PVALUE" name="Parent Variables" parent="" type="TASKVALUE">
 <VALUE state="2">
 <Values/>
-<Mode>1</Mode>
+<Mode>0</Mode>
 </VALUE>
 </node>
 <node content="1" id="PRPTS" name="PromptSets" parent="" pref="1" type="PROMPTSET"/>
@@ -310,7 +310,7 @@
 <node content="1" id="PVALUE" name="Parent Variables" parent="" type="TASKVALUE">
 <VALUE state="2">
 <Values/>
-<Mode>1</Mode>
+<Mode>0</Mode>
 </VALUE>
 </node>
 <node content="1" id="PRPTS" name="PromptSets" parent="" pref="1" type="PROMPTSET"/>
@@ -481,7 +481,7 @@
 <node content="1" id="PVALUE" name="Parent Variables" parent="" type="TASKVALUE">
 <VALUE state="2">
 <Values/>
-<Mode>1</Mode>
+<Mode>0</Mode>
 </VALUE>
 </node>
 <node content="1" id="PRPTS" name="PromptSets" parent="" pref="1" type="PROMPTSET"/>
@@ -656,7 +656,7 @@
 <node content="1" id="PVALUE" name="Parent Variables" parent="" type="TASKVALUE">
 <VALUE state="2">
 <Values/>
-<Mode>1</Mode>
+<Mode>0</Mode>
 </VALUE>
 </node>
 <node content="1" id="PRPTS" name="PromptSets" parent="" pref="1" type="PROMPTSET"/>
@@ -844,7 +844,7 @@
 <node content="1" id="PVALUE" name="Parent Variables" parent="" type="TASKVALUE">
 <VALUE state="2">
 <Values/>
-<Mode>1</Mode>
+<Mode>0</Mode>
 </VALUE>
 </node>
 <node content="1" id="PRPTS" name="PromptSets" parent="" pref="1" type="PROMPTSET"/>
@@ -1033,7 +1033,7 @@
 <node content="1" id="VALUE" name="Variables" parent="" type="VALUE">
 <VALUE state="1">
 <Values/>
-<Mode>1</Mode>
+<Mode>0</Mode>
 </VALUE>
 </node>
 <node content="1" id="PCK.AUTOMIC_AUTOMATION_ANYWHERE.PUB.PROMPTSET.CONNECTION_DETAILS" name="PCK.AUTOMIC_AUTOMATION_ANYWHERE.PUB.PROMPTSET.CONNECTION_DETAILS" parent="PRPTS" type="PROMPTSET">
